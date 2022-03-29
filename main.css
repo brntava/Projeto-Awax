@@ -180,6 +180,7 @@ body{
 }
 
 .default .button{
+    -webkit-appearance: none;
     background-color: #b98b59;
     text-transform: uppercase;
     color: #fff;
@@ -573,6 +574,7 @@ body{
     font-size: 11px;
 }
 .section-price-info .button{
+    -webkit-appearance: none;
     background-color: #373737;
     text-transform: uppercase;
     font-weight: bold;
@@ -776,6 +778,7 @@ body{
 }
 
 .section-form .button{
+    -webkit-appearance: none;
     display: flex;
     justify-content: center;
     margin:auto;
@@ -946,6 +949,7 @@ body{
 }
 
 .footer-content3 .button{
+    -webkit-appearance: none;
     background-color: #b98b59;
     text-transform: uppercase;
     color: #fff;
