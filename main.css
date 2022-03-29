@@ -124,6 +124,7 @@ body{
     text-transform: uppercase;
 }
 .banner input{
+    -webkit-appearance: none;
     background-color: #b98b59;
     text-transform: uppercase;
     color: #fff;
@@ -1054,8 +1055,7 @@ body{
         margin: auto;
     }
     .section-premium-right{
-        margin-top: 40px;
-        margin-left: 30px;
+        margin: 50px;
     }
 
     .section-facts{
@@ -1153,10 +1153,6 @@ body{
         margin-bottom: 30px;
     }
 
-    .section-premium-right{
-        margin-top: 50px;
-    }
-
     .section-facts{
         flex-direction: column;
         margin-left: 30px;
@@ -1208,5 +1204,9 @@ body{
 
     .section-footer-contents{
         flex-direction: column-reverse;
+    }
+
+    .footer-content3 input[type=text]::placeholder{
+        font-size: 11px;
     }
 }
