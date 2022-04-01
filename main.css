@@ -69,7 +69,7 @@ body{
     border-bottom: 5px solid #000;
 }
 
-#menu-open{
+#menu-opener{
     display: none;
     width: 28px;
 }
@@ -968,14 +968,17 @@ body{
         margin-left: 30px;
     }
 
-    #menu-open{
+    #menu-opener{
         display: block;
         position: absolute;
         right: 50px;
     }
 
-    nav{
+    .menu-open{
         display: none;
+    }
+
+    nav{
         position: absolute;
         z-index: 99;
         background-color: rgba(0,0,0, 0.9);
@@ -1083,7 +1086,6 @@ body{
 @media (max-width: 450px){
 
     nav{
-        display: none;
         background-color: rgba(0,0,0,0.9);
         width: 80vw;
         top: 120px;
