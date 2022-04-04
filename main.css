@@ -974,15 +974,11 @@ body{
         right: 50px;
     }
 
-    .menu-open{
-        display: none;
-    }
-
     nav{
         position: absolute;
         z-index: 99;
         background-color: rgba(0,0,0, 0.9);
-        width: 70vw;
+        width: 0;
         height: calc(100vh - 100px);
         right: 0;
         top: 120px;
